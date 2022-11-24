@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// 1. listar as cores ✅
+// 2. aparecer o quadradinho com a cor 🤩
+// 3. Fazer o input 👍
+// 4. Armazenar as informações do Input
+// 5. Atualizar essas informações
+// 6. filtrar as cores
+// 7. adicionar o copo e mudar de cor.
+
+class App extends React.Component {
+  render() {
+    return (
+      <>
+        <h1>🍹 Que Suco Foi Esse? 🍹</h1>
+      </>
+    );
+  }
 }
 
 export default App;
