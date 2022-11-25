@@ -9,6 +9,8 @@ import "./App.css";
 // 6. Atualizar essas informações
 // 7. Filtrar os sucos pelas cores
 
+// Bônus. Remover case sensitive do filtro
+
 class App extends React.Component {
   render() {
     return (
