@@ -1,0 +1,34 @@
+.juice-container {
+  max-width: max-content;
+  margin: auto;
+  text-align: left;
+  list-style: none;
+}
+
+.juice-container li {
+  display: flex;
+  align-items: center;
+}
+
+.text-juice {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.glass {
+  width: 100px;
+}
+
+/* .color {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  margin-right: 10px;
+} */
+
+input {
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  font-size: 1.2rem;
+}
