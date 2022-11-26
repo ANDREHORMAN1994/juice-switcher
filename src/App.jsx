@@ -1,13 +1,12 @@
 import React from "react";
 import "./App.css";
 
-// 1. Listar as cores
-// 2. Renderizar o copo do suco com a cor
+// 1. Listar os nomes dos sucos
+// 2. Renderizar o copo do suco
 // 3. Mudar a cor do copo.
 // 4. Criar o input de texto
 // 5. Armazenar as informações do input no estado
-// 6. Atualizar essas informações
-// 7. Filtrar os sucos pelas cores
+// 6. Filtrar os sucos
 
 // Bônus. Remover case sensitive do filtro
 
